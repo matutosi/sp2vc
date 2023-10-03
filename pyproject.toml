@@ -8,7 +8,7 @@ version = "0.1.0"
 authors = [  { name="matutosi" },]
 description = "Package for analyse species2vector"
 license = {text = "MIT License"}
-requires-python = ">=3.11.1"
+requires-python = ">=3.6.0"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
