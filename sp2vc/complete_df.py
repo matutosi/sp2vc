@@ -16,6 +16,8 @@ def complete_df(df):
                     from the input DataFrame's columns.
 
     Example:
+    from sp2vc import *
+    import pandas as pd
     df = pd.DataFrame({
         'x': [2020, 2020, 2021],
         'y': [1, 3, 1],

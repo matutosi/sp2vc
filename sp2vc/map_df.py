@@ -21,7 +21,8 @@ def map_df(df, fun):
            do not match the function arguments.
 
     Example:
-    Suppose df is a DataFrame with columns ['a', 'b'] and `fun` is a function defined as 
+    from sp2vc import *
+    import pandas as pd
     def example_fun(x, y, z):
         return x + y*2 + z*3
     df = pd.DataFrame({
