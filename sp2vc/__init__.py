@@ -1,1 +1,1 @@
-from sp2vc.sp2vc import *
+from sp2vc import *
