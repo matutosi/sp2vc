@@ -1,3 +1,5 @@
+import pandas as pd
+
 def complete_df(df):
     """
     Generates a DataFrame with all possible combinations of unique values for each column.

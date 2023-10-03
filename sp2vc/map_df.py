@@ -1,3 +1,5 @@
+import inspect
+
 def map_df(df, fun):
     """
     Apply a given function to a DataFrame based on column names as arguments.
