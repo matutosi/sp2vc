@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sp2vc"
+version = "0.1.0"
+authors = [  { name="matutosi" },]
+description = "Package for analyse species2vector"
+license = {text = "MIT License"}
+requires-python = ">=3.11.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    ]
+dependencies = [
+    "pandas", "numpy"
+    ]
