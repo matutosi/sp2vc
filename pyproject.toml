@@ -15,5 +15,5 @@ classifiers = [
     "Operating System :: OS Independent",
     ]
 dependencies = [
-    "pandas", "numpy", "inspect"
+    "pandas", "numpy"
     ]
