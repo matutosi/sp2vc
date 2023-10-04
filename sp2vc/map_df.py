@@ -25,6 +25,7 @@ def map_df(df, fun):
     import pandas as pd
     def example_fun(x, y, z):
         return x + y*2 + z*3
+    
     df = pd.DataFrame({
         'x': [2020, 2020, 2021],
         'y': [1, 3, 1],
