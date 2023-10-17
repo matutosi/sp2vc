@@ -24,6 +24,7 @@ def complete_df(df):
         'z': [10, 20, 30]
     })
     completed_df = complete_df(df)
+    print(df)
     print(completed_df)
 
     Notes:
