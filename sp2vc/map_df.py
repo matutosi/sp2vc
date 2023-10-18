@@ -32,6 +32,7 @@ def map_df(df, fun):
         'z': [10, 20, 30]
     })
     result = map_df(df, example_fun)
+    print(df)
     print(result)
 
     Notes:
